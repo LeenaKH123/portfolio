@@ -1,0 +1,27 @@
+.btn-lg-rounded-primary{
+  background-color: $success;
+  color: white;
+  text-align: center;
+  font-size: 15px;
+  font-weight: bold;
+  text-transform: uppercase;
+  padding: 8px 46px;
+  border-radius: 50px;
+}
+
+.btn-lg-rounded-primary:hover{
+  background-color: #DD0000;
+  color: white;
+  text-decoration: none;
+}
+
+//Incase you want to use certificate section in about page
+
+// .btn-certificates {
+//   width: 250px !important;
+//   font-weight: bold;
+// }
+
+// .btn-certificates:hover {
+//   color: white;
+// }

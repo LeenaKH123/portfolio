@@ -7,6 +7,7 @@ Learn more about the importance of a portfolio with this article:
 👉 [Diploma is dead... Long live Portfolio by Mathieu Le Roux](https://medium.com/le-wagon/diploma-is-dead-long-live-portfolio-44a6d306553) (you can clap 👏 if you like it!)
 
 ### Kick-start your Portfolio
+[Live Demo of your template](https://lwist-portfolio.herokuapp.com/)
 
 #### Setup
 

@@ -7,6 +7,10 @@ margin: 0px;
 overflow-x: hidden;
 }
 
+.img {
+  object-fit:cover; 
+}
+
 #imgg {
   margin-left: 0%;
   margin-top: 55px;

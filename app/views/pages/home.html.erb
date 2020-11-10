@@ -2,41 +2,83 @@
 
 <div class="bck-light-grey p-3 bg-success">
   <div class="container overlay h-100 w-100 text-center mt-3 mt-lg-5 pt-5", id="homepage-main-greet">
-    <h1 class='mb-4 text-white pt-5' ><b>Leena Khalili</b></h1>
-    <p class="mb-4 text-white pt-3 pb-1">Passionate about technology and business!</p>
+    <div class="row" id="reviewcard">
+       <div class="col-4" id="imgg">
+        <%= cl_image_tag("https://res.cloudinary.com/dekvy8qc4/image/upload/v1605004464/Leena2_kpd19g.webp", width: 300, height: 300) %>
+       </div>
+        <div class="col-8" id="textt">
+       
+        <p class='mb-4 text-white pt-5' ><b>Leena, MBA, PMP, SCM</b>
+         Product manager with 10+ years of experience discovering, executing and delivering software (SaaS, PaaS), mobile and web products.
+
+          Expert level knowledge of Agile methodology (SCRUM, KANBAN) and SDLC. Expert level knowledge of product management tools such as Jira, Confluence and Trello.
+
+          Worked for international companies such as (IBM, Oracle and CISCO), thus exposed to global networking opportunities,  international trainings and innovative technologies. Able to adapt depending on product needs, can act as a product manager, project manager, SCRUM master, product owner.
+
+          Experienced with IBM DevOps approach to agile software development that developers and operations teams use to build, test, deploy and monitor applications with speed, quality and control.
+
+          Common use cases include: cloud-native and mobile applications, application integration, and multicloud management.
+
+          Long experience working with graphic designers and developers using Adobe xD, Java, API's, integration technologies and SQL.
+
+          Experienced in interviewing customers, collecting requirements, creating product wireframes (using Balsamiq) and user flows (using LucidCharts).
+
+          Lifelong learner - constantly acquiring technical skills via Coursera and Udemy and improving communication and leadership skills at networking events.</b></p>
+        <p class="mb-4 text-white pt-3 pb-1">Passionate about technology and business!</p>
+        
+      </div>
     </div>
   </div>
+</div>
 
 
 <div class="container text-center p-3 mt-5", id="homepage-main-container">
-  <h1 class="mb-4" id="projects"><b>Project section!</b></h1>
-  <p class="mb-0">Short description about the projects.</p>
+  <h1 class="mb-4" id="projects"><b>Projects, done in the last month!</b></h1>
+  <%# <p class="mb-0">Short description about the projects.</p> %>
 </div>
 
 <div class="px-5 mb-5 pb-5">
   <div class="row justify-content-center">
     <div class="info-card m-4 col-12 col-lg-3">
-    <%= image_tag "https://www.projectsmart.co.uk/img/project.png", class: "info-card-img mb-4" %>
-      <h4><b>Project 1</b></h4>
-      <p>Project 1 description</p>
-      <a class="btn btn-lg-rounded-primary mb-2" target= "_blank" href="#"> Project</a>
-      <a class="btn btn-lg-rounded-primary mb-2" href="<%= case_study_path %>" target="_blank"> Study Case</a>
+    <%= cl_image_tag("https://res.cloudinary.com/dekvy8qc4/image/upload/v1603461316/qnrrlnuer923z1n0hg4okc6ptz5b.jpg", width: 300, height: 300, crop: :fill) %>
+      <h4><b>Superhuman</b></h4>
+      <p>Rent a superhero, achieve the impossible!</p>
+      <div class="row">
+      <div class="col-6">
+      <a class="btn btn-lg-rounded-primary mb-2" target= "_blank" href="https://superhumann.herokuapp.com/">Visit Website</a>
+      </div>
+      <div class="col-6">
+      <a class="btn btn-lg-rounded-primary mb-2" href="<%= superhuman_path %>" target="_blank"> Study Case</a>
+      </div>
+      </div>
     </div>
 
     <div class="info-card m-4 col-12 col-lg-3">
-    <%= image_tag "https://www.projectsmart.co.uk/img/project.png", class: "info-card-img mb-4" %>
-      <h4><b>Project 2</b></h4>
-      <p>Project 2 description</p>
-      <a class="btn btn-lg-rounded-primary mb-2" target= "_blank" href="#"> Project</a>
-      <a class="btn btn-lg-rounded-primary mb-2" href="<%= case_study_path %>" target="_blank"> Study Case</a>
+   <%= cl_image_tag("https://res.cloudinary.com/dekvy8qc4/image/upload/v1605001218/viewbot2_pxxyo1.jpg", width: 300, height: 300, crop: :fill) %>
+      <h4><b>Viewbot</b></h4>
+      <p>Instantly act upon your application reviews from AppStore and GooglePlay!</p>
+      <div class="row">
+      <div class="col-6">
+      <a class="btn btn-lg-rounded-primary mb-2" target= "_blank" href="https://viewbot-app.herokuapp.com/"> Visit Website</a>
+      </div>
+      <div class="col-6">
+      <a class="btn btn-lg-rounded-primary mb-2" href="<%= viewbot_path %>" target="_blank"> Study Case</a>
+      </div>
+      </div>
     </div>
 
     <div class="info-card m-4 col-12 col-lg-3">
-    <%= image_tag "https://www.projectsmart.co.uk/img/project.png", class: "info-card-img mb-4" %>
-      <h4><b>Project 3</b></h4>
-      <p>Project 3 description</p>
-      <a class="btn btn-lg-rounded-primary mb-2" target= "_blank" href="#"> Project</a>
-      <a class="btn btn-lg-rounded-primary mb-2" href="<%= case_study_path %>" target="_blank"> Study Case</a>
+     <%= cl_image_tag("https://res.cloudinary.com/dekvy8qc4/image/upload/v1603360327/6bdo34nklxihugk9xv6ueo8vwesb.jpg", width: 300, height: 300, crop: :fill) %>
+      <h4><b>Mr Cocktail</b></h4>
+      <p>Fancy a cocktail, create your favourite recipe!</p>
+      <div class="row">
+      <div class="col-6">
+      <a class="btn btn-lg-rounded-primary mb-2" target= "_blank" href="https://dry-citadel-76250.herokuapp.com/cocktails"> Visit Website</a>
+      </div>
+      <div class="col-6">
+      <a class="btn btn-lg-rounded-primary mb-2" href="<%= cocktail_path %>" target="_blank"> Study Case</a>
+      </div>
+      </div>
     </div>
 
   </div>

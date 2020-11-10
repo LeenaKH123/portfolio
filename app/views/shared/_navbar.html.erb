@@ -1,7 +1,7 @@
 <div class="navbar nav-main navbar-expand-lg navbar-light px-2 px-lg-5 fixed-top bg-white ">
-  <img src="https://raw.githubusercontent.com/lewagon/fullstack-images/master/uikit/logo.png" style="height:40px; margin-right: 5px;"/>
+  <%# <img src="https://raw.githubusercontent.com/lewagon/fullstack-images/master/uikit/logo.png" style="height:40px; margin-right: 5px;"/> %>
   <a class="nav-link-main" href="<%= root_path %>">
-     LeWagonİstanbul
+     Leena
   </a>
 
   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
@@ -10,10 +10,19 @@
   <div class="collapse navbar-collapse justify-content-end w-100" id="navbarNav">
     <ul class="navbar-nav">
       <li class="nav-item">
-        <a class="nav-link-min nav-link-one btn btn-lg-rounded-primary" href="<%= about_path %>"> About</a>
+        <a class="nav-link-min nav-link-one" href="<%= about_path %>"> About</a>
       </li>
       <li class="nav-item">
-        <a class="nav-link-min nav-link-two btn btn-lg-rounded-primary" href="<%= contact_path %>"> Contact</a>
+        <a class="nav-link-min nav-link-one " href="<%= about_path %>"> Resume</a>
+      </li>
+       <li class="nav-item">
+        <a class="nav-link-min nav-link-one " href="<%= about_path %>">Projects & Products</a>
+      </li>
+       <li class="nav-item">
+        <a class="nav-link-min nav-link-one " href="<%= about_path %>">Education</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link-min nav-link-two " href="<%= contact_path %>"> Contact</a>
       </li>
     </ul>
       </div>

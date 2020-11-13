@@ -1,22 +1,27 @@
 
-// #reviewcard2 {
-//   margin-top: 20px;
-//    #textt2 {
-//       margin-top: 20px;
-//       margin-left: 1px;
-//       text-align: left;      
-//   }
-// }
+ #reviewcard2 {
+  margin-top: 40px;
+  .img {
+    // margin-top: 20px;
+  }
+  #textt2 {
+    // margin-top: 20px;
+    text-align: left;          
+   }   
+ }
 
-// #reviewcard3 {
-//   margin-top: 20px;
-//    #textt3 {
-//       margin-top: 20px;
-//       margin-left: 1px;
-//       text-align: left;      
-//   }
-// }
+ #reviewcard3 {
+  margin-top: 40px;
+  .img {
+    // margin-bottom: 20px;
+  }
+   #textt3 {
+      // margin-top: 20px;     
+      text-align: left;      
+  }
+  margin-bottom: 20px;
+}
 
-// .listingcontent {
-//   margin-bottom: 100px;
-// }
+.listingcontent {
+  margin-bottom: 100px;
+}

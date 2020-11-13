@@ -19,9 +19,55 @@
       // margin-top: 20px;     
       text-align: left;      
   }
-  margin-bottom: 20px;
+  
 }
 
 .listingcontent {
   margin-bottom: 100px;
+}
+
+@media only screen and (max-width: 768px) {
+  #reviewcard2{
+    h1{
+      font-size: 50px;
+    }
+
+    p{
+      font-size: 20px;
+    }
+  // width: 100%;
+  }
+}
+@media (min-width: 100px) and (max-width: 575px) {
+  #reviewcard2 {
+    grid-template-columns: 1fr;
+  }
+}
+
+// Small devices (landscape phones, 576px and up)
+@media (min-width: 576px) {
+  #reviewcard2 {
+    grid-template-columns: 1fr;
+  }
+}
+
+// Medium devices (tablets, 768px and up)
+@media (min-width: 768px) {
+  #reviewcard2 {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+// Large devices (desktops, 992px and up)
+@media (min-width: 992px) {
+  #reviewcard2 {
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+}
+
+// Extra large devices (large desktops, 1200px and up)
+@media (min-width: 1200px) {
+  #reviewcard2 {
+    grid-template-columns: 1fr 1fr 1fr;
+  }
 }

@@ -1,8 +1,12 @@
 
+.listingcontent {
+  margin-bottom: 100px;
+}
+
  #reviewcard2 {
   margin-top: 40px;
   .img {
-    // margin-top: 20px;
+    margin-bottom: 5px;
   }
   #textt2 {
     // margin-top: 20px;
@@ -13,61 +17,54 @@
  #reviewcard3 {
   margin-top: 40px;
   .img {
-    // margin-bottom: 20px;
+    margin-bottom: 5px;
   }
    #textt3 {
       // margin-top: 20px;     
       text-align: left;      
-  }
-  
+  }  
 }
 
-.listingcontent {
-  margin-bottom: 100px;
+#reviewcard4 {
+  margin-top: 40px;
+  .img {
+     margin-bottom: 5px;
+  }
+   #textt4 {
+      // margin-top: 20px;     
+      text-align: left;      
+  }  
 }
 
-@media only screen and (max-width: 768px) {
-  #reviewcard2{
-    h1{
-      font-size: 50px;
-    }
-
-    p{
-      font-size: 20px;
-    }
-  // width: 100%;
+#reviewcard5 {
+  margin-top: 40px;
+  .img {
+     margin-bottom: 5px;
   }
-}
-@media (min-width: 100px) and (max-width: 575px) {
-  #reviewcard2 {
-    grid-template-columns: 1fr;
-  }
+   #textt5 {
+      // margin-top: 20px;     
+      text-align: left;      
+  }  
 }
 
-// Small devices (landscape phones, 576px and up)
-@media (min-width: 576px) {
-  #reviewcard2 {
-    grid-template-columns: 1fr;
+#reviewcard6 {
+  margin-top: 40px;
+  .img {
+    margin-bottom: 5px;
   }
+   #textt6 {
+      // margin-top: 20px;     
+      text-align: left;      
+  }  
 }
 
-// Medium devices (tablets, 768px and up)
-@media (min-width: 768px) {
-  #reviewcard2 {
-    grid-template-columns: 1fr 1fr;
+#reviewcard7 {
+  margin-top: 40px;
+  .img {
+    margin-bottom: 5px;
   }
-}
-
-// Large devices (desktops, 992px and up)
-@media (min-width: 992px) {
-  #reviewcard2 {
-    grid-template-columns: 1fr 1fr 1fr;
-  }
-}
-
-// Extra large devices (large desktops, 1200px and up)
-@media (min-width: 1200px) {
-  #reviewcard2 {
-    grid-template-columns: 1fr 1fr 1fr;
-  }
+   #textt7 {
+      // margin-top: 20px;     
+      text-align: left;      
+  }  
 }

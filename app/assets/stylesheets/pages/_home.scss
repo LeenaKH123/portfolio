@@ -7,8 +7,28 @@ margin: 0px;
 overflow-x: hidden;
 }
 
+.references {
+  text-align: left;
+  font-style: italic;
+  color: #F4F4F4;
+}
+
+.title {
+  color: #F4F4F4;
+}
+
+
+
+.intro {
+  text-align: left;
+  color: #F4F4F4;
+}
 .img {
-  object-fit:cover;  
+  
+    width: 100%;
+    height: 15vw;
+    object-fit: cover;
+ 
 }
 
 

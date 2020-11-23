@@ -1,7 +1,28 @@
-.images {
-  height: 15em;
-  margin: 0 auto;
-  overflow: hidden;
-  width: 20em;
-  position:relative;
-}
+// .geeks { 
+//   width: 300px; 
+//   height: 300px; 
+//   overflow: hidden; 
+//   margin: 0 auto; 
+// } 
+ 
+.geeks .img { 
+  width: 100%; 
+  transition: 0.5s all ease-in-out; 
+} 
+ 
+.geeks:hover img { 
+  transform: scale(1.5);
+  background-color: white;
+  background-image:url("https://mcdn.wallpapersafari.com/medium/11/50/K8eWEn.jpg");
+  background-repeat:no-repeat;  
+} 
+
+// .geeks:hover .write {
+//   visibility:hidden;
+//   opacity: 0; 
+// }
+
+// .geeks:hover .text-success {
+//   visibility:hidden;
+//   opacity: 0; 
+// }

@@ -9,6 +9,12 @@
   width: 100%; 
   transition: 0.5s all ease-in-out; 
 } 
+
+.description {
+  text-align: left;
+  margin-left:20%;
+  margin-right:20%;
+}
  
 .geeks:hover img { 
   transform: scale(1.5);
@@ -17,10 +23,9 @@
   background-repeat:no-repeat;  
 } 
 
-// .geeks:hover .write {
-//   visibility:hidden;
-//   opacity: 0; 
-// }
+.geeks:hover ~ .ppp {
+  display: none;
+}
 
 // .geeks:hover .text-success {
 //   visibility:hidden;
